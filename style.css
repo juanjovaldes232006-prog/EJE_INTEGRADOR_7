@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #1a1a1a;
+}
+
+.pared {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+  gap: 4px; 
+}
+
+
+.uno {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.uno:hover {
+  border: 2px solid white;
+}
+
+.uno img {
+  width: 100%;
+  height: 100%;
+}
